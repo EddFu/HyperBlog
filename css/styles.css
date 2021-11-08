@@ -1,4 +1,5 @@
 body {
+    background-color: #212121;
     color: #333;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,21 +17,35 @@ body {
     padding: 5px;
     border: 3px solid black;
     box-shadow: 0px 5px 30px 0px gray ;
+    display: flex;
 }
 
+#logo{
+ width: 80px;
+}
+
+#cabecera > p{
+    margin-top: 28px;
+    margin-left: 10px;
+}
+
+#tagline{
+    margin-top: 28px;
+    margin-left: 70px;
+    font-weight: lighter;
+}
 #container {
+    background-color: white;
     width: 70%;
     padding: 0;
     text-align: left;
     border: 2px solid gray;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 
 #container h1{
     font-size: 20px;
-    
-    /* text-align: center; */
 }
 
 #post{
