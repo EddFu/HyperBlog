@@ -36,3 +36,16 @@ body {
 #post{
     padding: 1em;
 }
+
+footer{
+    display: flex;
+    background-color: #6D8299;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+footer > a{
+    text-decoration: none;
+    color: white;
+}
