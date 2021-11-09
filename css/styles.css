@@ -54,7 +54,7 @@ body {
 
 footer{
     display: flex;
-    background-color: #6D8299;
+    background-color: blue;
     justify-content: center;
     justify-content: space-around;
     padding: 5px;
